@@ -1,0 +1,238 @@
+<rooms>
+<!-- Room #0 -->
+<room name = "Shore Of The Surian Ocean"> 
+<UID>Room0</UID>
+<des>You stand on the Stranzburgian side of the Surian Ocean's shore. To your south the ocean seems to go on forever. The Wall of Stranzburg rises quickly from the ground to your east and blocks your view. The wall continues to your North. Going farther East into Stranzburg would mean arrest or worse...</des>
+<exit>5</exit>
+<directions>North</directions> 
+<destinations>the Wall of Stranzburg</destinations>
+</room>
+<!-- Room #1 -->
+<room name = "Wall Of Stranzburg"> 
+<UID>Room1</UID>
+<des>The formidable Wall of Stranzburg stands before you. Bowmen keep patrol atop the wall, ready to shoot anyone that even dares to dream of climbing it. To your South the ocean continues on forever.</des>
+<item name = "Rattlesnake">
+<des>This is a rattlesnake...why would you pick this up?</des>
+</item>
+<exit>2</exit>
+<directions>East</directions> 
+<destinations>the shoreline</destinations>
+</room>
+<!-- Room #2 -->
+<room name = "Shore Of The Surian Ocean"> 
+<UID>Room2</UID>
+<des>You stand on the jagged and rocky shore of the Surian Ocean. To your North the grasses of the Endless Plains shimmer in the wind. To your west lies the Wall of Stranzburg - an eternal symbol of the Stranzburgian disdain for all foreigners.</des>
+<exit>7,3,1</exit>
+<directions>North,East,West</directions> 
+<destinations>the Endless Plains,more shoreline,the Wall of Stranzburg</destinations>
+</room>
+
+<!-- Room #3 -->
+<room name = "Shore Of The Surian Ocean"> 
+<UID>Room3</UID>
+<des>You stand on the sharp rocks of the Surian Shore. To your North is the town of Haffensmarch. To your West is more shoreline. To the east is an old stone lighthouse.</des>
+<exit>8,4,2</exit>
+<directions>North,East,West</directions> 
+<destinations>Haffensmarch,the Lighthouse,more shoreline</destinations>
+</room>
+
+<!-- Room #4 -->
+<room name = "Old Lighthouse"> 
+<UID>Room4</UID>
+<des>The old lighthouse has been extinguished for years. To your north is the ominous Dark Forest. To your West is the shore of the Surian Ocean. The deep blue Surian Ocean extends in all other directions.</des>
+<exit>9,3</exit>
+<directions>North,West</directions> 
+<destinations>the Dark Forest, the shore of the Surian Ocean</destinations>
+</room>
+<!-- Room #5 -->
+<room name = "Wall Of Stranzburg">
+<UID>Room5</UID> 
+<des>You arrive on the Stranzburgian side of the wall. You must stay close to the wall to avoid Stanzburgian patrols through the area - going West would be suicide. To the East is a small passage into the Wall of Stranzburg. To the South is the shoreline of the Surian Ocean, covered in rocks as sharp as swords. To your North a strange monolithic structure looms in the distance...</des>
+<item name = "Flyer">
+<des>Reads: By the order of the God-King: All those found assisting Bermian forces will be burned until death.</des>
+</item>
+<exit>10,6,0</exit>
+<directions>North,East,West</directions> 
+<destinations>the strange structure,the passage,the shoreline</destinations>
+</room>
+<!-- Room #6 -->
+<room name = "Smuggler's Road">
+<UID>Room6</UID> 
+<des>This close to the border and not on any map you've seen? This road must be used by smugglers trading between Berm and Stranzburg. To the south the vast Surian Ocean glimmers like a mirror. To the West there seems to be a small passageway into the wall...</des>
+<item name = "Note">
+<des>Reads: The guards found the last dead drop. Security on the south has been increased...Meet at the gate this time...B side</des>
+</item>
+<exit>7,1,5</exit>
+<directions>East,South,West</directions> 
+<destinations>the Endless Plains,the shore line,the passageway</destinations>
+</room>
+<!-- Room #7 -->
+<room name = "Endless Plains">
+<UID>Room7</UID> 
+<des>The grasses of the Endless Plains rise to your neck. To your North you can make out the border of Berm and Stranzburg. To your East is the pastoral town Haffensmarch, and beyond that stands the Dark Forest. To the South lies the shores of the Surian Ocean. A small dirt road lies to your West, beyond it looms the wall of Stranzburg.</des>
+<item name = "Hay">
+<des>This is for horses.</des>
+</item>
+<item name = "Oats">
+<des>This is for horses.</des>
+</item>
+<exit>12,8,2,6</exit>
+<directions>North,East,South,West</directions> 
+<destinations>the border,Haffensmarch,the ocean's edge,a road</destinations>
+</room>
+<!-- Room #8 -->
+<room name = "Haffensmarch">
+<UID>Room8</UID> 
+<des>The town of Haffensmarch sits at the edge of the dark forest. It's people have farmed this land for centuries. To the North lies a clearing at the edge of the Dark Forest. To the South lies the jagged shore of the Surian Ocean. To the West lies the golden fields of the Endless Plains. In the East, at the edge of the town, is the mysterious Dark Forest.</des>
+<exit>13,9,3,7</exit>
+<directions>North,East,South,West</directions> 
+<destinations>the edge of the forest,the Dark Forest,the shoreline,the Endless Plains,</destinations>
+</room>
+<!-- Room #9 -->
+<room name = "The Dark Forest">
+<UID>Room9</UID> 
+<des>You venture deep into the forest. You are lost, but you get the feeling that you've been here before...In all directions there is more forest. You contemplate your fate.</des>
+<exit>14,9,9,9</exit>
+<directions>North,East,South,West</directions> 
+<destinations>more forest,more forest,more forest,more forest</destinations>
+</room>
+<!-- Room #10 -->
+<room name = "The Maze Temple"> 
+<UID>Room10</UID>
+<des>You stand at the entrance to the Maze Temple. Behind the temple is the range of Metal Mountains. There are three paths carved into the stone before you. It is rumored that it predates even the Stranzburgian empire...</des>
+<item name = "Breadcrumbs">
+<des>These could be used for keeping track of your place...if they're not eaten first...</des>
+</item>
+<item name = "Breadcrumbs">
+<des>These could be used for keeping track of your place...if they're not eaten first...</des>
+</item>
+<exit>15,20,21</exit>
+<directions>North,East,West</directions> 
+<destinations>somewhere in the maze,somewhere in the maze,somewhere in the maze,</destinations>
+</room>
+<!-- Room #11 -->
+<room name = "Somewhere In The Maze Temple"> 
+<UID>Room11</UID>
+<des>You are lost somewhere inside the Maze Temple. You think you've been here before but you can't be sure...</des>
+<exit>11,16,15,10</exit>
+<directions>North,East,South,West</directions> 
+<destinations>somewhere in the maze,somewhere in the maze,somewhere in the maze,somewhere in the maze</destinations>
+</room>
+<!-- Room #12 -->
+<room name = "The Border">
+<UID>Room12</UID> 
+<des>You find yourself among the Endless Plains at the border of Berm and Stranzburg. To the east of where you stand, the thick canopy of the Dark Forest casts an eternal shadow. To the West and the North an unbreakable stone wall blocks any hope of entering the holy land of Stranzburg. The Endless Plains continue to the South as far your eyes can see.</des>
+<exit>13,7</exit>
+<directions>East,South</directions> 
+<destinations>the edge of the forest,deeper within the Endless Plains</destinations>
+
+</room><!-- Room #13 -->
+<room name = "Edge Of The Dark Forest">
+<UID>Room13</UID> 
+<des>You are at the edge of the largest forest in the land. Far to the North the ever frozen Metal Mountains rise quickly from the ground and stretch into the heavens. Directly to your East stands the Dark Forest - it's thick trees block you from seeing within. To the West is the border of the countries of Berm and Stranzburg. To your South is the village of Haffensmarch.</des>
+<item name = "Axe">
+<des>It is unlikely that this axe's owner needs it now.</des>
+</item>
+<exit>18,14,8,12</exit>
+<directions>North,East,South,West</directions> 
+<destinations>the Metal Mountain,the Dark Forest,Haffensmarch,the border</destinations>
+</room>
+<!-- Room #14 -->
+<room name = "The Dark Forest">
+<UID>Room14</UID> 
+<des>You venture deep into the forest. You are lost, but you get the feeling that you've been here before...In all directions there is more forest. You contemplate your fate.</des>
+<exit>19,14,9,13</exit>
+<directions>North,East,South,West</directions> 
+<destinations>more forest,more forest,more forest,more forest</destinations>
+</room>
+<!-- Room #15 -->
+<room name = "Somewhere In The Maze Temple">
+<UID>Room15</UID> 
+<des>You are lost somewhere inside the Maze Temple. You think you've been here before but you can't be sure...</des>
+<exit>20,21,10,21</exit>
+<directions>North,East,South,West</directions> 
+<destinations>somewhere in the maze,somewhere in the maze,somewhere in the maze,somewhere in the maze</destinations>
+</room>
+<!-- Room #16 -->
+<room name = "Somewhere In The Maze Temple">
+<UID>Room16</UID> 
+<des>You are lost somewhere inside the Maze Temple. You think you've been here before but you can't be sure...</des>
+<exit>11,21,15,16</exit>
+<directions>North,East,South,West</directions> 
+<destinations>somewhere in the maze,somewhere in the maze,somewhere in the maze,somewhere in the maze</destinations>
+</room>
+<!-- Room #17 -->
+<room name = "Somewhere In The Maze Temple">
+<UID>Room17</UID> 
+<des>You are lost somewhere inside the Maze Temple. You think you've been here before but you can't be sure...</des>
+<exit>10,20,11,22</exit>
+<directions>North,East,South,West</directions> 
+<destinations>somewhere in the maze,somewhere in the maze,somewhere in the maze,somewhere in the maze</destinations>
+</room>
+<!-- Room #18 -->
+<room name = "Foot Of The Metal Mountain">
+<UID>Room18</UID>
+<des>Although the mountain before you is made of stone, its veins of steel and silver glitter in the sunlight. Attempting to scale the heights of the Metal Mountain would likely only teach you a lesson in humility. The Dark Forest-yet another lesson in humility-casts its inky shadow upon the lands to your East. To your west the Stranzburgian wall rises from the ground. </des>
+<item name = "Ore">
+<des>You are not a smith. As such, you have no use for this.</des>
+</item>
+<exit>19,13</exit>
+<directions>East,South</directions> 
+<destinations>the Dark Forest,the edge of the forest</destinations>
+</room>
+<!-- Room #19 -->
+<room name = "The Dark Forest">
+<UID>Room19</UID> 
+<des>You venture deep into the forest. You are lost, but you get the feeling that you've been here before...In all directions there is more forest. You contemplate your fate.</des>
+<exit>19,19,14,19</exit>
+<directions>North,East,South,West</directions> 
+<destinations>more forest,more forest,more forest,more forest</destinations>
+</room>
+<!-- Room #20 -->
+<room name = "Somewhere In The Maze Temple">
+<UID>Room20</UID> 
+<des>You are lost somewhere inside the Maze Temple. You think you've been here before but you can't be sure...</des>
+<exit>16,16,10,17</exit>
+<directions>North,East,South,West</directions> 
+<destinations>Test1</destinations>
+</room>
+<!-- Room #21 -->
+<room name = "Somewhere In The Maze Temple">
+<UID>Room21</UID>  
+<des>You are lost somewhere inside the Maze Temple. You think you've been here before but you can't be sure...</des>
+<exit>10,11,21,20</exit>
+<directions>North,East,South,West</directions> 
+<destinations>somewhere in the maze,somewhere in the maze,somewhere in the maze,somewhere in the maze</destinations>
+</room>
+<!-- Room #22 -->
+<room name = "Somewhere In The Maze Temple">
+<UID>Room22</UID>  
+<des>You are lost somewhere inside the Maze Temple. You think you've been here before but you can't be sure...</des>
+<item name = "Breadcrumbs">
+<des>lol</des>
+</item>
+<exit>10,23,10,10</exit>
+<directions>North,East,South,West</directions> 
+<destinations>somewhere in the maze,somewhere in the maze,somewhere in the maze,somewhere in the maze</destinations>
+</room>
+<!-- Room #23 -->
+<room name = "Peak Of Metal Mountain">
+<UID>Room23</UID>  
+<des>You stand atop the Metal Mountain. The ground you stand on is littered with diamonds and veins of mythril. To your East is a portal.</des>
+<exit>18,24</exit>
+<directions>Back,East</directions> 
+<destinations>the base of the mountain,the portal</destinations>
+</room>
+<!-- Room #24 -->
+<room name = "The Precipice">
+<UID>Room24</UID>  
+<des>You are above all things. The clouds part before you. You see the foreign lands far beyond the Surian Ocean. You see the mystery of the Dark Forest. You see the false deity of Stranzburg.You are faced with a choice: go back or call it quits?</des>
+<item name = "Sword">
+<des>Cool sword. Too bad I haven't implemented saving or combat yet!</des>
+</item>
+<exit>23</exit>
+<directions>Back</directions> 
+<destinations>the peak of Metal Mountain...</destinations>
+</room>
+
+</rooms>
